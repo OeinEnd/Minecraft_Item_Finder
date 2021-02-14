@@ -3,7 +3,7 @@ let itemList = [];
 function add(name){
     let ele = [];
     ele.name = name;
-    ele.img = "/" + name + ".png";
+    ele.img = "/Minecraft_Item_Finder/" + name + ".png";
 
     itemList.push(ele);
 }
